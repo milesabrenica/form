@@ -1,0 +1,182 @@
+body{
+	width: 100%;
+	font-family: 'Lato';
+	background-image: url("https://teknikol.com/img/bg/blur-background02.jpg");
+	background-attachment: fixed;
+}
+
+h1{
+	width: 100%;
+	padding:100px 0;
+	margin: 0 auto;
+	text-align: center;
+	background-color:rgba(0, 0, 0, 0.5);	
+	font-family: 'lato';
+	color: #ffffff;
+	font-size: 70px;
+	box-shadow: 0px 10px 25px #888888;
+}
+
+.main{
+	font-size: 25px;
+	padding: 50px;
+}
+
+.form-field{	
+	margin-top: 10px;
+	text-align: center;
+}
+
+label{
+	min-width: 100px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin-right: 10px;
+	color:rgb(92, 108, 121);
+}
+
+/*REMOVES DEFAULT BLUE HIGHLIGHT*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+input[type=submit] {
+	margin-top: 25px;
+	border: none;
+	background-color:rgba(0, 0, 0, 0.5);	
+	color: #fff;
+	font-size: 25px;
+	font-family: 'lato';
+	font-weight: none;
+	width: 200px;
+}
+
+.checkbox{
+	width: 10px;
+	height: 10px;
+}
+
+select.userQuote{
+	height: 35px;
+	width: 22%;
+	
+}
+
+#legal{
+	font-size: 15px;
+	
+}
+
+input, textarea, .userQuote{
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	color:rgb(92, 108, 121);
+	font-family: 'lato';
+	font-size: 15px;
+	-webkit-transition: box-shadow 0.3s, border 0.3s;
+	-moz-transition: box-shadow 0.3s, border 0.3s;
+	-o-transition: box-shadow 0.3s, border 0.3s;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+
+input:focus, input[type="text"].focus, 
+textarea:focus, textarea[type="textarea"].focus,
+#userQuote:focus, #userQuote[type="text"].focus {
+	border: none;
+	-webkit-box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+	-moz-box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+	box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+}
+
+
+#alert{
+	margin-top: 25px;
+	color: rgb(92, 108, 121);
+	display: none;
+}
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 800px) {
+========
+.main{
+	font-size: 25px;
+	padding: 0px;
+}
+
+.form-field{	
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+label{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+
+input[type=submit] {
+	margin-top: 25px;
+	width: 100%;
+}
+
+.checkbox{
+	width: 10px;
+	height: 10px;
+}
+
+select.userQuote{
+	height: 35px;
+	width: 100%;
+	margin: 0px;
+	font-size: 15px;
+}
+
+label{
+	color:rgb(92, 108, 121);
+}
+
+#legal{
+	font-size: 15px;
+}
+
+input, textarea, .userQuote{
+	background-color: rgba(255, 255, 255, 0.5);
+	display: inline-block;
+	width: 100%;
+	border-radius: 5px;
+	color:rgb(92, 108, 121);
+	font-family: 'lato';
+	font-size: 15px;
+	-webkit-transition: box-shadow 0.3s, border 0.3s;
+	-moz-transition: box-shadow 0.3s, border 0.3s;
+	-o-transition: box-shadow 0.3s, border 0.3s;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+
+input:focus, input[type="text"].focus, 
+textarea:focus, textarea[type="textarea"].focus,
+#userQuote:focus, #userQuote[type="text"].focus {
+	border: none;
+	-webkit-box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+	-moz-box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+	box-shadow: 0 0 5px 3px rgb(92, 108, 121);
+}
+
+==================
+
+
+
+}
